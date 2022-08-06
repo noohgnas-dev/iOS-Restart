@@ -20,7 +20,7 @@ struct OnboardingView: View {
             }) {
                 Text("Start")
             }
-        }
+        } //: VSTACK
     }
 }
 

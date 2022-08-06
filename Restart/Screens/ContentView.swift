@@ -11,10 +11,12 @@ struct ContentView: View {
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     
     var body: some View {
-        if isOnboardingViewActive {
-            OnboardingView()
-        } else {
-            HomeView()
+        ZStack {
+            if isOnboardingViewActive {
+                OnboardingView()
+            } else {
+                HomeView()
+            }
         }
     }
 }
