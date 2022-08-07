@@ -15,6 +15,7 @@
 		776C24D1288D732000076086 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 776C24CF288D732000076086 /* chimeup.mp3 */; };
 		776C24D8288D75F400076086 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C24D7288D75F400076086 /* OnboardingView.swift */; };
 		776C24DA288D760200076086 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C24D9288D760200076086 /* HomeView.swift */; };
+		776C24DD289E079E00076086 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776C24DC289E079E00076086 /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		776C24D6288D74F300076086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		776C24D7288D75F400076086 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		776C24D9288D760200076086 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		776C24DC289E079E00076086 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		776C24D4288D747700076086 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				776C24DC289E079E00076086 /* CircleGroupView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776C24DD289E079E00076086 /* CircleGroupView.swift in Sources */,
 				776C24D8288D75F400076086 /* OnboardingView.swift in Sources */,
 				776C24DA288D760200076086 /* HomeView.swift in Sources */,
 				776C24C3288D72BF00076086 /* ContentView.swift in Sources */,
